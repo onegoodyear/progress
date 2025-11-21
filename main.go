@@ -2,10 +2,11 @@ package main
 
 import (
 	"fmt"
-	"path/filepath"
-
-	// "github.com/xuri/excelize/v2"
 	"os"
+	"path/filepath"
+	"strconv"
+
+	"github.com/xuri/excelize/v2"
 )
 
 type Student struct {
@@ -23,6 +24,7 @@ type Subject struct {
 }
 
 type Grade struct {
+	grade_id int
 	student_id int
 	subject_id int
 	mark float32
@@ -31,6 +33,9 @@ type Grade struct {
 
 
 func main() {
+	// var grades []Grade = []Grade{}
+	var students []Student = []Student{}
+	// var subjects []Subject = []Subject{}
 	entries, err  := os.ReadDir(".")
 	if err != nil {
 		fmt.Println("Something bad is happening with your computer!")
@@ -45,11 +50,34 @@ func main() {
 		}
 	}
 	fmt.Println("----------Welcome to Students Manager-----------")
-	fmt.Println("First you'll choose the file of the list of students: \n")
+	fmt.Println("First you'll choose the file of the list of students:")
 	for i, file := range xlsxFiles {
-		fmt.Printf("%d. %s\n", i+1, file)
+		fmt.Printf("\n%d. %s\n", i+1, file)
 	}
 	var filenumber int
 	fmt.Print("\nPlease enter the number of the right file: ")
 	fmt.Scanf("%d", &filenumber)
+
+	// Reading the List of students
+
+	studentsFile, err := excelize.OpenFile(xlsxFiles[filenumber-1])
+	if err != nil {
+		fmt.Println("Error opeing the students file: ", err)
+	}
+	rows, err := studentsFile.GetRows("Sheet1")
+	if err != nil {
+		fmt.Println("There was an error getting the rows of the students file")
+	}
+	for i:=1; i < len(rows); i++ {
+		row := rows[i]
+		ageInt, _ := strconv.Atoi(row[1])
+		idInt, _ := strconv.Atoi(row[3])
+		students = append(students, Student{
+			name: row[0],
+			age: ageInt,
+			email: row[2],
+			id: idInt,
+		})
+	}
+	fmt.Println(students)
 }
