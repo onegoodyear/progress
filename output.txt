@@ -1,0 +1,101 @@
+--------The List of Grades (written)-------
+1. John Smith took 85.500000 on: Mathematics
+2. John Smith took 92.000000 on: Computer Science
+3. John Smith took 78.500000 on: Physics
+4. John Smith took 88.000000 on: Literature
+5. John Smith took 91.500000 on: Biology
+6. Sarah Johnson took 76.000000 on: Mathematics
+7. Sarah Johnson took 84.500000 on: Computer Science
+8. Sarah Johnson took 79.000000 on: Physics
+9. Sarah Johnson took 82.500000 on: Literature
+10. Sarah Johnson took 87.000000 on: Biology
+11. Michael Brown took 93.500000 on: Mathematics
+12. Michael Brown took 89.000000 on: Computer Science
+13. Michael Brown took 95.500000 on: Physics
+14. Michael Brown took 81.000000 on: Literature
+15. Michael Brown took 86.500000 on: Biology
+16. Emily Davis took 72.500000 on: Mathematics
+17. Emily Davis took 68.000000 on: Computer Science
+18. Emily Davis took 74.500000 on: Physics
+19. Emily Davis took 79.000000 on: Literature
+20. Emily Davis took 71.500000 on: Biology
+21. David Wilson took 88.000000 on: Mathematics
+22. David Wilson took 94.500000 on: Computer Science
+23. David Wilson took 91.000000 on: Physics
+24. David Wilson took 85.500000 on: Literature
+25. David Wilson took 89.000000 on: Biology
+26. Jennifer Miller took 65.500000 on: Mathematics
+27. Jennifer Miller took 72.000000 on: Computer Science
+28. Jennifer Miller took 68.500000 on: Physics
+29. Jennifer Miller took 74.000000 on: Literature
+30. Jennifer Miller took 70.500000 on: Biology
+31. Christopher Taylor took 96.000000 on: Mathematics
+32. Christopher Taylor took 98.500000 on: Computer Science
+33. Christopher Taylor took 94.000000 on: Physics
+34. Christopher Taylor took 97.500000 on: Literature
+35. Christopher Taylor took 99.000000 on: Biology
+36. Amanda Anderson took 82.500000 on: Mathematics
+37. Amanda Anderson took 79.000000 on: Computer Science
+38. Amanda Anderson took 85.500000 on: Physics
+39. Amanda Anderson took 81.000000 on: Literature
+40. Amanda Anderson took 83.500000 on: Biology
+41. Matthew Thomas took 77.000000 on: Mathematics
+42. Matthew Thomas took 84.500000 on: Computer Science
+43. Matthew Thomas took 80.000000 on: Physics
+44. Matthew Thomas took 75.500000 on: Literature
+45. Matthew Thomas took 78.000000 on: Biology
+46. Jessica Jackson took 90.500000 on: Mathematics
+47. Jessica Jackson took 87.000000 on: Computer Science
+48. Jessica Jackson took 92.500000 on: Physics
+49. Jessica Jackson took 89.000000 on: Literature
+50. Jessica Jackson took 94.500000 on: Biology
+51. Daniel White took 73.000000 on: Mathematics
+52. Daniel White took 69.500000 on: Computer Science
+53. Daniel White took 76.000000 on: Physics
+54. Daniel White took 71.500000 on: Literature
+55. Daniel White took 74.000000 on: Biology
+56. Lauren Harris took 84.500000 on: Mathematics
+57. Lauren Harris took 91.000000 on: Computer Science
+58. Lauren Harris took 87.500000 on: Physics
+59. Lauren Harris took 82.000000 on: Literature
+60. Lauren Harris took 89.500000 on: Biology
+61. Robert Martin took 95.000000 on: Mathematics
+62. Robert Martin took 92.500000 on: Computer Science
+63. Robert Martin took 97.000000 on: Physics
+64. Robert Martin took 94.500000 on: Literature
+65. Robert Martin took 96.000000 on: Biology
+66. Megan Thompson took 68.500000 on: Mathematics
+67. Megan Thompson took 75.000000 on: Computer Science
+68. Megan Thompson took 71.500000 on: Physics
+69. Megan Thompson took 67.000000 on: Literature
+70. Megan Thompson took 73.500000 on: Biology
+71. William Garcia took 86.000000 on: Mathematics
+72. William Garcia took 83.500000 on: Computer Science
+73. William Garcia took 88.000000 on: Physics
+74. William Garcia took 85.500000 on: Literature
+75. William Garcia took 81.000000 on: Biology
+76. Elizabeth Martinez took 79.500000 on: Mathematics
+77. Elizabeth Martinez took 86.000000 on: Computer Science
+78. Elizabeth Martinez took 82.500000 on: Physics
+79. Elizabeth Martinez took 78.000000 on: Literature
+80. Elizabeth Martinez took 84.500000 on: Biology
+81. James Robinson took 91.000000 on: Mathematics
+82. James Robinson took 88.500000 on: Computer Science
+83. James Robinson took 93.000000 on: Physics
+84. James Robinson took 90.500000 on: Literature
+85. James Robinson took 95.000000 on: Biology
+86. Stephanie Clark took 74.500000 on: Mathematics
+87. Stephanie Clark took 70.000000 on: Computer Science
+88. Stephanie Clark took 77.500000 on: Physics
+89. Stephanie Clark took 72.000000 on: Literature
+90. Stephanie Clark took 75.500000 on: Biology
+91. Joshua Rodriguez took 83.000000 on: Mathematics
+92. Joshua Rodriguez took 89.500000 on: Computer Science
+93. Joshua Rodriguez took 85.000000 on: Physics
+94. Joshua Rodriguez took 80.500000 on: Literature
+95. Joshua Rodriguez took 87.000000 on: Biology
+96. Ashley Lewis took 97.500000 on: Mathematics
+97. Ashley Lewis took 94.000000 on: Computer Science
+98. Ashley Lewis took 99.500000 on: Physics
+99. Ashley Lewis took 96.000000 on: Literature
+100. Ashley Lewis took 98.500000 on: Biology
